@@ -212,7 +212,7 @@ contract StandardToken is ERC20 {
       ERC223ReceivingContract receiver = ERC223ReceivingContract(_to);
       receiver.tokenFallback(msg.sender, _value, empty);
     }
-    </span>>
+    </span>
 
     return true;
   }
