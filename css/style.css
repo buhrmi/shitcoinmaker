@@ -1,0 +1,15 @@
+.options {
+  padding: 8px;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+}
+pre {
+  margin: 0;
+  padding: 0;
+  float: left;
+  height: 100vh;
+  overflow: auto;
+  width: 75%;
+}
